@@ -45,7 +45,7 @@ public class GetReportResults {
         for(int x = 0 ; x<id_list.length;x++) {
             answer[x] =count_value.get(id_list[x]);
         }
-        
+
         return answer;
     }
 }
