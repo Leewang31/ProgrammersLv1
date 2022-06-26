@@ -19,15 +19,13 @@ public class UnfinishedPlayer {
                 map.put(s, 1);
             }
         }
-        System.out.println(map);
 
         for (String s : completion) {
             if (map.containsKey(s)) {
                 map.put(s, map.get(s) - 1);
             }
         }
-        System.out.println(map);
-
+       
         for (String s : participant) {
             if (map.get(s).equals(1)) {
                 answer = s;
