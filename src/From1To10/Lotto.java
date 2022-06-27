@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Lotto {
     public static void main(String[] args) {
-        int[] lottos = {0,0,0,0,0,0};
+        int[] lottos = {0, 0, 0, 0, 0, 0};
         int[] win_nums = {38, 19, 20, 40, 15, 25};
 
         System.out.println(Arrays.toString(solution(lottos, win_nums)));
